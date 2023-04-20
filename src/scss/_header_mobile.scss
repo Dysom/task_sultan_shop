@@ -1,0 +1,105 @@
+.page_mobile {
+    .header {
+        margin-bottom: 20px;
+    }
+    .header__wrapper {
+    }
+    .header__lines {
+        border: 1px solid #d9dce0;
+        border-width: 1px 0;
+    }
+    .header__top {
+        min-height: 61px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__top-item {
+        flex-basis: 33.3%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__top-item:first-child {
+        justify-content: left;
+    }
+
+    .header__top-item:last-child {
+        justify-content: right;
+    }
+
+    .header__button {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .header__button_yellow {
+        background: #ffc85e;
+    }
+    .header__logo {
+    }
+    .header__logo-img {
+        height: 41px;
+    }
+    .header__cart {
+        min-width: 30px;
+        min-height: 30px;
+        margin: 10px 0;
+        position: relative;
+        background: url("../images/layout/icons/ico-cart.svg") no-repeat left center;
+        background-size: auto 25px;
+    }
+
+    .header__cart-count {
+        min-width: 17px;
+        min-height: 17px;
+        position: absolute;
+        left: 12px;
+        top: -2px;
+        border-radius: 50%;
+        background: #ffc85e;
+        border: 3px solid #ffffff;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 1.2em;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .header__bottom {
+    }
+    .header-bottom {
+        min-height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__bottom-item {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25em;
+        color: #3f4e65;
+    }
+
+    .header-bottom__item-link {
+        color: inherit;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+}

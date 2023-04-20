@@ -1,0 +1,33 @@
+.page_desktop {
+    .cart {
+        padding: 25px 0;
+    }
+    .cart__item,
+    .cart__bottom {
+        border: 1px solid rgba($color: #3f4e65, $alpha: 0.3);
+        border-width: 1px 0 0;
+    }
+    .cart__bottom {
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cart-item__options-box {
+        @media (max-width: 900px) {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    .cart-item__splitter {
+        @media (max-width: 1100px) {
+            margin: 0 12px;
+        }
+
+        @media (max-width: 900px) {
+            display: none;
+        }
+    }
+}

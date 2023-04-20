@@ -1,0 +1,214 @@
+.page_mobile {
+    .footer {
+        background: #3f4e65;
+        color: #fff;
+    }
+    .footer__wrapper {
+        padding-top: 6px;
+        padding-bottom: 7px;
+    }
+    .footer__columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
+    }
+
+    .footer__column-wrapper {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 24px;
+    }
+
+    .footer__column {
+        margin: 8px 0;
+    }
+
+    .footer__column.footer__column_messagers {
+        align-self: center;
+    }
+
+    .footer__column_logo {
+    }
+
+    .footer__logo-wrapper {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .footer__logo {
+        height: 41px;
+    }
+
+    .footer-column__button {
+        min-height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7px 30px;
+        gap: 12px;
+        border-radius: 79px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.214286em;
+        white-space: nowrap;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .footer-column__button.footer-column__button_yellow {
+        background: #ffc85e;
+    }
+
+    .footer__about {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #ffffff;
+    }
+    .footer__subscribe-discount {
+        margin-bottom: 15px;
+    }
+    .subscribe-discount {
+        > label {
+            margin-bottom: 14px;
+            display: block;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            color: #ffffff;
+        }
+    }
+    .subscribe-discount__field {
+        max-width: 280px;
+        min-height: 59px;
+        padding: 13px 10px 13px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        background: #ffffff;
+        border-radius: 36px;
+
+        > input {
+            background-color: transparent;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            color: #5c6370;
+            opacity: 0.6;
+        }
+
+        > button {
+            width: 39px;
+            height: 39px;
+            border-radius: 50%;
+            overflow: hidden;
+            background: #ffc85e;
+
+            > img {
+                vertical-align: middle;
+            }
+        }
+    }
+    .footer-column {
+        min-width: max-content;
+    }
+
+    .footer-column.footer-column_messagers {
+        min-width: 100px;
+    }
+
+    .footer-column__title {
+        margin-bottom: 20px;
+        white-space: nowrap;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        color: #ffffff;
+    }
+    .footer-column__item {
+        margin-bottom: 18px;
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a.footer-column__item:hover {
+        text-decoration: underline;
+    }
+
+    .socials {
+    }
+
+    .socials__link {
+        width: 39px;
+        height: 39px;
+        overflow: hidden;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socials__link + .socials__link {
+        margin-left: 10px;
+    }
+
+    .socials__link_whatsapp {
+        background: #00e676;
+    }
+    .socials__link_telegram {
+        background: #40b3e0;
+    }
+    .footer__contacts {
+    }
+    .footer-contacts {
+        color: #ffffff;
+    }
+    .footer-contacts__phone {
+        margin-bottom: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .footer-contacts__work-time {
+        margin-bottom: 5px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .footer-contacts__order-call {
+        display: block;
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 150%;
+        text-decoration: underline;
+        color: inherit;
+    }
+    a.footer-contacts__order-call:hover {
+        text-decoration: none;
+    }
+
+    .footer-contacts__mail {
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.285714em;
+
+        > sub {
+            font-weight: 300;
+            font-size: 12px;
+        }
+    }
+    .footer-contacts__cards {
+    }
+}

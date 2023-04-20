@@ -1,0 +1,86 @@
+.admin-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.admin-page h1 {
+    margin-bottom: 20px;
+}
+
+.admin-goods__item {
+    padding: 7.5px 0;
+}
+
+.admin-goods__ico-button {
+    display: inline;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.admin-goods__ico-button:not(:first-child) {
+    margin-left: 8px;
+}
+
+.admin-goods__ico {
+    height: 16px;
+    vertical-align: middle;
+}
+
+.admin-page-form {
+    border: 1px solid green;
+}
+
+.admin-common-button,
+.admin-page-form__button {
+    padding: 3px;
+    border: 1px solid #343434;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-page-form__button + .admin-page-form__button {
+    margin-left: 15px;
+}
+
+.admin-page-form__fieldset {
+    padding: 10px;
+}
+
+.admin-page-form__label {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.admin-page-form__field-wrapper {
+    position: relative;
+}
+
+.admin-page-form__field-wrapper > input,
+.admin-page-form__field-wrapper > select,
+.admin-page-form__field-wrapper > textarea {
+    min-width: 100%;
+    padding: 3px;
+    border: 1px solid #343434;
+    font-size: inherit;
+}
+
+.admin-page-form__note {
+    position: absolute;
+    margin-top: 6px;
+    padding: 3px;
+    border: 1px solid #b33;
+    border-radius: 4px;
+    top: 100%;
+    left: 0;
+    color: #b33;
+    background-color: azure;
+    font-weight: bold;
+}
+
+.admin-page-form__image-wrapper > img {
+    max-width: 250px;
+    max-height: 250px;
+}

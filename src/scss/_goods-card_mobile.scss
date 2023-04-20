@@ -1,0 +1,58 @@
+.page_mobile {
+    .main__card-of-goods {
+        margin-bottom: 50px;
+    }
+
+    .card-of-goods {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .card-of-goods__image-wrapper {
+        max-width: 256px;
+        min-width: 256px;
+        height: 179px;
+
+        img {
+            max-width: 256px;
+            max-height: 179px;
+        }
+    }
+
+    .goods-content__name {
+        font-size: 16px;
+    }
+
+    .goods-content__price {
+        font-size: 20px;
+    }
+
+    .goods-content__options-box {
+    }
+
+    .goods-content__promo-action {
+        max-width: unset;
+        min-height: 77px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+        border-radius: 10px;
+    }
+    .goods-content__promo-download {
+        margin-bottom: 20px;
+        min-height: 77px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+        border-radius: 10px;
+
+        img {
+            margin-left: 5px;
+        }
+    }
+}
